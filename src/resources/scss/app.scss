@@ -1,0 +1,73 @@
+@import "variables";
+
+body {
+  background-color: antiquewhite;
+  background: url("https://picsum.photos/1920/1080?blur") fixed center no-repeat;
+  background-size: cover;
+}
+
+.nft-container {
+  width: 500px;
+  margin: 2rem auto 2rem auto;
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2%;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.185);
+}
+
+.nft-avt {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+.nft-avt img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.nft-name {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Fugaz One", cursive;
+}
+
+.call-action {
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+.nft-skill__title {
+  border-bottom: 1px solid rgba(102, 50, 50, 0.411);
+  font-size: 22px;
+}
+
+.bg-main-color {
+  background-color: rgba(230, 73, 73, 0.733);
+  color: white;
+}
+
+.bg-main-color:hover {
+  color: rgba(252, 235, 235, 0.733);
+}
+
+//  Scrollbar
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(230, 73, 73, 0.733);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(158, 38, 38, 0.733);
+}

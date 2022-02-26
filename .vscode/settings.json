@@ -1,0 +1,5 @@
+{
+    "polacode.transparentBackground": true,
+    "prettier.enableDebugLogs": true,
+    "html.format.wrapLineLength": 80
+}
